@@ -1,0 +1,20 @@
+# Python virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# --- OPTION 1: (Recommended for sharing on GitHub) ---
+# If you want your repository to be self-contained, you can comment out
+# the line below. This will INCLUDE your large model files in the upload.
+# Warning: This will make your repository very large.
+# app/ml/assets/
+
+
+# --- OPTION 2: (Recommended for deployment or small repos) ---
+# If you want to keep your repository small and download the assets
+# from a separate host (like Hugging Face Hub), uncomment the line below.
+# This will EXCLUDE your large model files from the upload.
+app/ml/assets/
+
